@@ -1,0 +1,4 @@
+test/core_test.rb 4f9a84c03d05c29e31589b6113f828a87cf2f413
+test/core_test/fixnum_test.rb 8c9e34dd58833f1cac96da7e4d4696042d61526e
+test/core_test/string_test.rb d154466a6cc46fd51bf99c0f16a5bb4f19e6f077
+test/core_test/numeric_test.rb dc2c17e46c4899bd66efb47eb2ee07d88d53758c
