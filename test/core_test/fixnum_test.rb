@@ -1,4 +1,4 @@
-require 'minitest/autorun'
+require File.expand_path '../../test_helper.rb', __FILE__
 
 module CoreTest
   # Various tests on the {http://www.ruby-doc.org/core-2.1.2/Fixnum.html Fixnum} class.
@@ -9,7 +9,7 @@ module CoreTest
     end
 
     # {http://www.ruby-doc.org/core-2.1.2/Fixnum.html#method-i-to_s Fixnum#to_s} allows numbers to change base when converting to strings.
-    def test_to_s_accepts_a_base_as_anrgument
+    def test_to_s_accepts_a_base_as_an_argument
       {
         2   => '1010',
         8   => '12',

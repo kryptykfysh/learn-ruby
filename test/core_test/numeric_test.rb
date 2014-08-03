@@ -1,4 +1,4 @@
-require 'minitest/autorun'
+require File.expand_path '../../test_helper.rb', __FILE__
 
 module CoreTest
   # Various tests on the {http://www.ruby-doc.org/core-2.1.2/Numeric.html Numeric} class.
