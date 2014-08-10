@@ -17,6 +17,9 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (10.3.2)
     ruby-progressbar (1.5.1)
     thread_safe (0.3.4)
@@ -30,5 +33,6 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   minitest-reporters
+  rack-test
   rake
   yard
